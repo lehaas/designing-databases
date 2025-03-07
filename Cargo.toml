@@ -1,0 +1,15 @@
+[package]
+name = "db"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "db-simple"
+test = true
+bench = true
+
+[dependencies]
+anyhow = "1.0.97"
+clap = "4.5.31"
+clap-verbosity-flag = "3.0.2"
+regex = "1.11.1"
