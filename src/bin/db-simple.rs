@@ -6,7 +6,7 @@ use std::fs::OpenOptions;
 use std::io::prelude::*;
 use std::io::{BufRead, BufReader};
 
-const FILE: &str = "database-simple.txt";
+const FILE: &str = "data/database-simple.txt";
 
 /// A simple append based database
 #[derive(Parser)]
